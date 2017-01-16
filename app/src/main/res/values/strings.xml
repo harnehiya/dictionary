@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dictionary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+     <string name="about_dvayweb">DvayWeb is a Delhi based software and web development company which provides off shore web and software development services.
+</string>
+    <string name="company_name">DvayWeb Consultancy Services</string>
+    <string name="version">1.0</string>
+
+    <string-array name="level_array">
+        <item>Select level</item>
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advance</item>
+    </string-array>
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="chooser_title_msg">Share definition via</string>
+</resources>

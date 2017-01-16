@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.dw.andro.dictionary.Activity.MainActivity">Search List Activity Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Activity.WordDetailActivity">Word Translation Activity Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Fragment.WordODay">WOD Fragment Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Fragment.Favorite">Favorite Fragment Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Fragment.RecentSearch">Recent Searches Fragment Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Fragment.SpellingCheck">SpellingCheck Fragment Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Fragment.SettingsFragment">Settings Fragment Screen</screenName>
+    <screenName name="com.dw.andro.dictionary.Fragment.About">About Fragment Screen</screenName>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-75179440-2</string>
+</resources>

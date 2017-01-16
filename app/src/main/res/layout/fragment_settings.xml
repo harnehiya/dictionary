@@ -1,0 +1,153 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".fragment.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:clickable="true"
+                android:text="User Settings"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGray" />
+
+            <TableRow
+                android:id="@+id/language_row"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <LinearLayout android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_language"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Update Language"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_language_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="no internet"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorGrayLight" />
+
+            <TableRow
+                android:id="@+id/level_row"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <LinearLayout android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_level"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Update Level"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_level_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="no internet"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+
+            </TableRow>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#E5E5E5" />
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:clickable="true"
+                android:text="Application Settings"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorGray" />
+
+            <TableRow
+                android:id="@+id/delete_search_row"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp">
+
+                <LinearLayout android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_del_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Delete Searches"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tv_searches_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:text="Remove searches history"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorGrayLight" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_wod"
+            android:title="Word of the Day" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:title="Favorite/Saved" />
+
+        <item
+            android:id="@+id/nav_recent_search"
+            android:title="Recent Searches" />
+
+        <item
+            android:id="@+id/nav_spelling_check"
+            android:title="Spelling Checker" />
+
+        <item
+            android:id="@+id/nav_user_settings"
+            android:title="Settings" />
+
+    </group>
+    <!--<item android:title="">-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/nav_wod_notification"-->
+    <!--android:title="WOD Notification" />-->
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About" />
+    <!--</menu>-->
+    <!--</item>-->
+</menu>
